@@ -44,6 +44,8 @@
                 <td>
                     <form action="{{ route('stars.destroy',$star->id) }}" method="star">
 
+                        <a class="btn btn-primary" href="{{ route('stars.show',$star->id) }}">Show</a>
+
                         <a class="btn btn-primary" href="{{ route('stars.edit',$star->id) }}">Edit</a>
 
                         @csrf

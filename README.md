@@ -63,13 +63,13 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Instruction for using this project
 
-git clone https://github.com/RachidEttabaai/starprofile.git
-composer install
-create .env file from .env.example and add your setting for connection to the database
-npm install
-npm run dev
-php artisan ui bootstrap --auth
-php artisan migrate
-php artisan storage:link
-php artisan db:seed
-php artisan serve for lauching the project
+- git clone https://github.com/RachidEttabaai/starprofile.git
+- composer install
+- create .env file from .env.example and add your setting for connection to the database
+- npm install
+- npm run dev
+- php artisan ui bootstrap --auth
+- php artisan migrate
+- php artisan storage:link
+- php artisan db:seed
+- php artisan serve for lauching the project
